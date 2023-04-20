@@ -1,0 +1,11 @@
+.toRight {
+  transform: translateX(100%);
+  transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .toRight {
+    transform: translateX(0);
+    transition: none;
+  }
+}
